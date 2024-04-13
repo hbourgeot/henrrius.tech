@@ -1,9 +1,8 @@
-// file: view/index.templ
-package view
+package views
 
 templ Index() {
     <header>
-        <h1 class="text-center text-3xl font-bold">
+        <h1 class="text-center text-5xl font-bold">
             Hello, World
         </h1>
     </header>
@@ -13,4 +12,8 @@ templ Index() {
             FOO
         </button>
     </div>
+}
+
+templ NotFound() {
+	<div>404</div>
 }
