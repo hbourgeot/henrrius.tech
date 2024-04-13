@@ -1,0 +1,16 @@
+{
+  "name": "henrrius",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hbourgeot/henrrius.tech.git",
+  "author": "henrrius <henrrius@henrrius>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss build -o static/css/tailiwnd.css --minify",
+    "watch": "tailwindcss build -o static/css/tailiwnd.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {}
+}
