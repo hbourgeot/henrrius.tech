@@ -1,16 +1,12 @@
 package views
 
+import "github.com/hbourgeot/blog/views/partials/components"
+
 templ Index() {
     <header>
-        <h1 class="text-center text-5xl font-bold">
-            Hello, World
-        </h1>
+        @components.Header()
     </header>
     <div class="flex justify-center mt-10">
-        <!-- HTMX here -->
-        <button hx-get="/foo" class="btn bg-teal-200 p-4 rounded-lg">
-            FOO
-        </button>
     </div>
 }
 
